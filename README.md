@@ -1,7 +1,9 @@
 # Hackathon
 **Task: to predict whether a bank user is in fraud status(1: yes 0: no) according to database's history records**
 ## dataset
-You can download training & testing dataset from [GoolgeDrive]:  .
+You can download training & testing dataset from [GoolgeDrive].
+
+[GoolgeDrive]: http://www.google.cn/intl/zh_cn/drive/
 
 Each type includes three files, i.e. 
 
@@ -39,7 +41,7 @@ We prepare training label with the *fraud_status* feature:
     0 if fraud_status={Normal_0,Normal_1,Suspect_0}
     1 if fraud_status={Suspect_1,Suspect_2,Fraud_0,Fraud_1,Fraud_2}
 
-idle: feture exaction + xgboost
+idea: feture exaction + xgboost
 
 + 80% for training and 20% for evaluating.
 
